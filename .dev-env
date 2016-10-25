@@ -1,0 +1,3 @@
+NODE_ENV=development
+TOKEN_SECRET=secrecy
+DB_URL=mongodb://pohina-dbuser:pohina@ds031925.mlab.com:31925/pohina-db
