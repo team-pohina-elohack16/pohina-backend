@@ -7,3 +7,10 @@ notifications:
   email:
     on_success: never
     on_failure: never
+deploy:
+  provider: heroku
+  api_key:
+    secure: rPf1hfQO+xuaFZq30ScBL5CoEBvrUnaaj8LBRaGo83gqe+GK7Vr2XPZORy+8ciKmqGNtmqKYGv/y4uxYSCldBh3I4Bo0wvQhw3YgQ4lyTXo5GS6q5ncneCzG7NY0f//clS2r2RKbSiNfRPafAQdDNOAtH4pbv2MujRkOEOdjgjdyO34vajYp7S1kmizZJOAJ3JXG8guyyRyp6Q3/ceLBJy28yT3nsYERbo8+UlwJRK8D2gmXCv3IjDjAJ5p/baYJJzgZBtbtybxXTzB1yQ/etkgCfVz2hel1kQsxYrt7E/ZZFNP7UpHz+kHRluUFkpkf7DeekmuQWh/y08nDUQaimofqNMbBV72XcJvf4fD/mf/OOxm7svylyv59+dfHXABwvIyz756YGSWv4SLcke7JkbAYQhEWshnca3QtoBLZDajFxXsT9J7j/7SsOMcnHD7VPN6rQgt2h6Y4IBHj3YrtqBhUhK3bprhUVH0b43+Yk1NfMJln1mgLkYylT8JM/y/M68zOsC+ShDg4iMx0DSWo66YdQsIYVJ4X11WiVthy3g44yJPn3fyajnsYF0TiyDTq8bPfNpq0pTcuv2oNSezNgw0G3Oon6F9K/X4oIslJJfv5uE4VDRLSdeFpohb13H4gdxhKLwOLn1efCBeis4ngeZJBf0NDzLkOfDd8emFT2ow=
+  app: pohina-api
+  on:
+    repo: team-pohina-elohack16/pohina-backend
